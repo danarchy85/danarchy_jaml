@@ -1,0 +1,10 @@
+#!/usr/bin/env ruby
+require_relative '../lib/danarchy_jaml'
+
+if ARGV.empty?
+  abort('Need at least one JSON or YAML file (space separated).')
+else
+  ARGV.each do |file|
+    DanarchyJaml::Convert.new(file)
+  end
+end
