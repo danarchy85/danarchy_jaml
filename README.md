@@ -22,11 +22,13 @@ Or install it yourself as:
 
 ## Usage
 
-$ danarchy_jaml /tmp/file1.yaml /tmp/file2.json
+```
+~$ danarchy_jaml /tmp/file1.yaml /tmp/file2.json
 Converting YAML to JSON...
 File written: /tmp/test1.json
 Converting JSON to YAML...
 File written: /tmp/file2.yaml
+```
 
 
 ## License
